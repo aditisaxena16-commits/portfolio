@@ -13,7 +13,7 @@ function Project() {
           className="top-30"
           ProName="Terumo" 
           ProTitle="Terumo Europe Website" 
-          ProDesc="This was my first Project as a UI developer(Fresher). My team and I developed a live website for Terumo Europe. As a front-end developer, I worked on creating the Responsive website using Javascript, Bootstrap, HTML, CSS, LESS, and other necessary libraries. We developed a KIOSK for Terumo as well from skretch for which design was provided by customer on Zeplin Tool and we worked on the development."
+          ProDesc="This was my first Project as a UI developer. My team and I developed a live website for Terumo Europe. As a front-end developer, I worked on creating the Responsive website using Javascript, Bootstrap, HTML, CSS, LESS, and other necessary libraries. We developed a KIOSK for Terumo as well from skretch for which design was provided by customer on Zeplin Tool and we worked on the development."
         
         />
         <ProjectCard 
