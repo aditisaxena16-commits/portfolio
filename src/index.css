@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  background-image: url('/src/assets/pexels-pavel-danilyuk-5496464.jpg'); /* Public folder se image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
