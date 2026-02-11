@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectCard( {ProName, ProDesc ,ProTitle ,className} ) {
   return (
-   <div className={`sticky-card w-full mx-auto max-w-2xl sticky mt-10 ${className}`}>
+   <div className={`sticky-card w-full p-5 mx-auto max-w-2xl sticky mt-10 ${className}`}>
       <div className='box-border border border-[2px] border-[#2a2e5a] bg-[#181723] rounded-xl'>
         <div className="flex flex-row">
           

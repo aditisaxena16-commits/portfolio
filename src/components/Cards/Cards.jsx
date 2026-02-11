@@ -7,7 +7,7 @@ function Cards({
     category
 }) {
     return (
-        <div className="glow-container-education-1 glow-container pb-10" style={{ "--gap": 32, "--blur": 12, "--spread": 80, "--direction": "row" }}>
+        <div className="glow-container-education-1 glow-container p-5" style={{ "--gap": 32, "--blur": 12, "--spread": 80, "--direction": "row" }}>
             <article className="h-fit cursor-pointer border border-[#2a2e5a] relative bg-[#181723] text-[#ded7d7] rounded-xl hover:border-transparent w-full" style={{ "--active": 0, "--start": 277.8644710882834 }}>
                 <div className="p-3 relative">
                     <div className="flex justify-center">

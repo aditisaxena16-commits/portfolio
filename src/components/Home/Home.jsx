@@ -6,17 +6,20 @@ import image1 from '../../assets/image_Aditi.jpeg'
 export default function Home() {
     return (
         <div id ="home" className="mx-auto w-full max-w-7xl">
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-                <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-                    <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
-                        <h6 className="font-bold text-[#ded7d7] mb-0 text-2xl">
+            <aside className="grid grid-cols-1 md:grid-cols-2 gap-6 overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-5">
+                 <div className="pl-13 left-10 w-fit md:mt-20 sm:pt-1 pt-0 h-full">
+                    <img className="w-full h-[400px] object-contain border border-gray-100 rounded-xl" src={image1} alt="image1" />
+                </div>
+                <div className="z-10 px-4 pb-20 pt-10 sm:py-24 md:mx-auto sm:px-6 lg:px-8">
+                    <div className="sm:mt-1 md:mt-20 space-y-8 text-center sm:text-right sm:ml-auto">
+                        <h6 className="font-bold text-[#ded7d7] mb-0 text-xl md:text-2xl">
                            Hello, <img className="w-10 inline" src={image2} alt="image1" /> I 'm
                         </h6>
-                          <h1 className="hidden sm:block text-6xl text-[#ded7d7] mb-2">Aditi Saxena</h1>
-                          <h4 className="hidden sm:block text-2xl text-orange-700 font-bold mb-2">Frontend Developer</h4>
-                          <h6 className="hidden sm:block text-sm text-[#ded7d7] mb-2 font-bold">Experienced UI Developer with 9+ years of expertise in building responsive, user‑friendly web applications using modern front‑end technologies. Passionate about crafting intuitive interfaces, optimizing performance, and collaborating with cross‑functional teams to deliver impactful digital solutions.</h6>
+                          <h1 className="text-xl md:text-6xl text-[#ded7d7] mb-2">Aditi Saxena</h1>
+                          <h4 className=" text-l md:text-2xl text-orange-700 font-bold mb-2">Frontend Developer</h4>
+                          <h6 className="text-justify text-sm text-[#ded7d7] mb-2 font-bold">Experienced UI Developer with 9+ years of expertise in building responsive, user‑friendly web applications using modern front‑end technologies. Passionate about crafting intuitive interfaces, optimizing performance, and collaborating with cross‑functional teams to deliver impactful digital solutions.</h6>
                         <a
-                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
+                            className="inline-flex mt-5 md:mt-0 text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
                             href="/Aditi_Saxena_Resume.pdf"
                         >
                             <svg
@@ -34,9 +37,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute inset-0 left-10 w-fit mt-20 sm:pt-1 pt-0 h-full">
-                    <img className="w-full h-[400px] object-contain border border-gray-100 rounded-xl" src={image1} alt="image1" />
-                </div>
+               
             </aside>
 
            
