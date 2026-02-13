@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div id ="home" className="mx-auto w-full max-w-7xl">
             <aside className="grid grid-cols-1 md:grid-cols-2 gap-6 overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-5">
-                 <div className="pl-13 left-10 w-fit md:mt-20 sm:pt-1 pt-0 h-full">
+                 <div className="p-10 left-10 w-fit md:mt-20 sm:pt-1 pt-0 h-full">
                     <img className="w-full h-[400px] object-contain border border-gray-100 rounded-xl" src={image1} alt="image1" />
                 </div>
                 <div className="z-10 px-4 pb-20 pt-10 sm:py-24 md:mx-auto sm:px-6 lg:px-8">

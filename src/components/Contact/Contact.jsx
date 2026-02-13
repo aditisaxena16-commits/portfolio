@@ -1,99 +1,63 @@
 import HeaderComponent from "../HeaderComponent/HeaderComponent";
+import { FaEnvelope, FaLinkedin, FaGithub, FaPhoneAlt } from "react-icons/fa";
 
 export default function Contact() {
     return (
         <div>
-            <HeaderComponent title="Contact"/>
-        <div id="Contact" className="relative flex items-top justify-center min-h-[500px] bg-transparent sm:items-center sm:pt-0">
-            <div className="lg:px-8">
-                <div className="mt-0 mx-auto overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-2">
-                        <div className="p-6 mr-2 bg-[#ded7d7] sm:rounded-lg">
-                            <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
-                                Contact Information Aditi
-                            </h1>
-                            {/* <p className="text-normal text-lg sm:text-xl font-medium text-gray-600 mt-2">
-                                Fill in the form to start a conversation
-                            </p> */}
-
-                            <div className="flex items-center mt-8 text-gray-600">
-                                <svg
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1.5"
-                                    viewBox="0 0 24 24"
-                                    className="w-8 h-8 text-gray-500"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="1.5"
-                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                                    />
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="1.5"
-                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                                    />
-                                </svg>
-                                <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    IITL Nimbus The Hyde Park, Sector 78
-                                </div>
-                            </div>
-
-                            <div className="flex items-center mt-4 text-gray-600">
-                                <svg
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1.5"
-                                    viewBox="0 0 24 24"
-                                    className="w-8 h-8 text-gray-500"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="1.5"
-                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                                    />
-                                </svg>
-                                <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +91 9808809051
-                                </div>
-                            </div>
-
-                            <div className="flex items-center mt-2 text-gray-600">
-                                <svg
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1.5"
-                                    viewBox="0 0 24 24"
-                                    className="w-8 h-8 text-gray-500"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="1.5"
-                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                    />
-                                </svg>
-                                <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    aditisaxena16@gmail.com
-                                </div>
-                            </div>
+            <HeaderComponent title="Contact" />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-white p-10">
+                <div className="box-border border border-[2px] border-[#2a2e5a] bg-[#181723] rounded-xl">
+                    <div className="flex flex-row">
+                        <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-orange-500 to-violet-600">
                         </div>
-
-                      
+                        <div className="h-[2px] w-full bg-gradient-to-r from-violet-600 via-violet-700 to-transparent">
+                        </div>
                     </div>
+                    <div className="p-2 md:p-10">
+                    <p className="text-3xl font-bold flex items-center text-[#ded7d7] text-center mb-6 pl-10 pt-5">
+                        <FaPhoneAlt className="text-3xl text-center justify-center mr-2" /> Get in Touch</p>
+                    <p className="text-center text-[#ded7d7] mb-10"> I’d love to hear from you! Whether you have a project idea, want to collaborate, or just say hello. </p>
+                    <div className="space-y-4 md:text-left">
+                        <p className="flex items-center text-[#ded7d7]">
+                            <FaEnvelope className="mr-2 text-orange-700" />
+                            Email: <a href="mailto:aditi@example.com" className="text-orange-700 font-bold ml-2">aditisaxena16@gmail.com</a>
+                        </p>
+                        <p className="flex items-center text-[#ded7d7]"> <FaLinkedin className="mr-2 text-orange-700" />  LinkedIn: <a href="https://www.linkedin.com/in/aditi-saxena-0793b480/" className="text-orange-700 font-bold ml-2">linkedin.com/in/aditi</a></p>
+                        <p className="flex items-center text-[#ded7d7]"> <FaGithub className="mr-2 text-orange-700" /> GitHub: <a href="https://github.com/aditisaxena16-commits" className="text-orange-700 font-bold ml-2">github.com/aditisaxena16-commits</a></p>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="box-border border border-[2px] border-[#2a2e5a] bg-[#181723] rounded-xl">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div className="flex flex-row">
+                        <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-orange-500 to-violet-600">
+                        </div>
+                        <div className="h-[2px] w-full bg-gradient-to-r from-violet-600 via-violet-700 to-transparent">
+                        </div>
+                    </div>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div className="p-2">
+                        <label className="text-[#ded7d7] text-bold">Your Name</label>
+                        <input type="text" name="name" placeholder="Your Name" className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] outline-0 ring-0 px-3 py-2" required />
+                        </div>
+                        <div className="p-2">
+                        <label className="text-[#ded7d7] text-bold" >Email</label>
+
+                        <input type="email" name="email" placeholder="Your Email" className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] outline-0 ring-0 px-3 py-2" required />
+                        </div>
+                        <div className="p-2">
+                        <label className="text-[#ded7d7] text-bold">Message</label>
+                     
+                        <textarea name="message" placeholder="Your Message" className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] outline-0 ring-0 px-3 py-2" rows="4" required></textarea>
+                        </div>
+                        <div className="flex items-center justify-center mb-2">
+                        <button type="submit" className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-orange-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold">Send</button>
+                    </div>
+                        
+                    </form>
                 </div>
             </div>
         </div>
-        </div>
-    );
+    )
 }

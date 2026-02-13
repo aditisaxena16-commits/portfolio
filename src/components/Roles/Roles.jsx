@@ -28,7 +28,7 @@ successful conclusion.
       </ul> */}
      
 
-<div className="relative border-l border-gray-300 pl-10">
+<div className="relative mt-10 border-l border-gray-300 pl-10">
      <div className="mb-6">
          <span className="absolute -left-3 top-0 w-6 h-6 bg-orange-600 rounded-full"></span>
       <h3 className="font-bold text-[#ded7d7]">Frontend Developer</h3> <p class="text-[#ded7d7]">Built responsive UI of a live European Website and collaborated with designers</p> </div>
