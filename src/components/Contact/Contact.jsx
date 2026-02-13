@@ -36,7 +36,7 @@ export default function Contact() {
                         <div className="h-[2px] w-full bg-gradient-to-r from-violet-600 via-violet-700 to-transparent">
                         </div>
                     </div>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true" action="/thank-you">
                         <div className="p-2">
                         <label className="text-[#ded7d7] text-bold">Your Name</label>
                         <input type="text" name="name" placeholder="Your Name" className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] outline-0 ring-0 px-3 py-2" required />
