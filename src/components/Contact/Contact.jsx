@@ -37,6 +37,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <form name="contact" method="POST" data-netlify="true" action="/thank-you">
+                    <input type="hidden" name="form-name" value="contact" />
                         <div className="p-2">
                         <label className="text-[#ded7d7] text-bold">Your Name</label>
                         <input type="text" name="name" placeholder="Your Name" className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] outline-0 ring-0 px-3 py-2" required />
@@ -53,7 +54,7 @@ export default function Contact() {
                         </div>
                         <div className="flex items-center justify-center mb-2">
                         <button type="submit" className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-orange-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold">Send</button>
-                    </div>
+                        </div>
                         
                     </form>
                 </div>
